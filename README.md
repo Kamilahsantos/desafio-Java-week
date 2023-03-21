@@ -1,7 +1,7 @@
 # Desafio Java Week
 
 
-Desenvolva os métodos das controllers para que possamos executar as seguintes chamadas na nossa API
+Desenvolva os métodos da controller para que possamos executar as seguintes chamadas na nossa API
 
 
 ### criação de produto
@@ -34,3 +34,15 @@ curl --location --request PUT 'http://localhost:8080/api/produtos/1' \
 ### excluir produto pelo id
 
 curl --location --request DELETE 'http://localhost:8080/api/produtos/1'
+
+## Como rodar o projeto
+
+1 - Configure o java 19 no GitPod
+
+sdk install java 19.0.2-open
+
+2 - Rode o comando mvn clean e mvn install
+
+3 - Rode o comando mvn spring-boot:run
+
+4 - Commite as alterações no seu fork do Gitpod
