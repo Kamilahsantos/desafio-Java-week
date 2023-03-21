@@ -46,3 +46,6 @@ sdk install java 19.0.2-open
 3 - Rode o comando mvn spring-boot:run
 
 4 - Commite as alterações no seu fork do Gitpod
+
+
+Caso queira ver a solução do desafio consulte [esse commit:](https://github.com/Kamilahsantos/desafio-Java-week/blob/bd5241395a83f8a61059a64e217269c45bc57f29/src/main/java/com/linuxtips/challengejavaweek/controller/ProdutoController.java)
